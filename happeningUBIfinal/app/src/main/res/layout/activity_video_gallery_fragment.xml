@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/chooseVideo"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:background="#00B8D4"
+            android:text="Escolha os videos"
+            android:textColor="#020202" />
+
+        <Button
+            android:id="@+id/addVideo"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:background="#00B8D4"
+            android:text="Adicionar videos à galeria"
+            android:textColor="#020202"></Button>
+
+
+        <ProgressBar
+            android:id="@+id/progressBarUpload"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listVideos"
+            android:layout_width="match_parent"
+            android:layout_height="724dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+</RelativeLayout>

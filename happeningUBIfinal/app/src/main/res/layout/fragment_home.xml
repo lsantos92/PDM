@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#6495ED"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/Criarpost"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Criar novo evento"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"></Button>
+
+    <EditText
+        android:id="@+id/nomeEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Criarpost"
+        android:layout_centerHorizontal="true"
+        android:hint="Inserir nome do evento"
+        android:textColorHint="#696969"></EditText>
+
+    <EditText
+        android:id="@+id/descricaoEvento"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomeEvento"
+        android:layout_centerHorizontal="true"
+        android:hint="Inserir descrição do evento"
+        android:textColorHint="#696969"></EditText>
+
+    <Button
+        android:id="@+id/chooseImage"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descricaoEvento"
+        android:layout_centerHorizontal="true"
+        android:text="Escolha a imagem para o evento" />
+        <Button
+            android:id="@+id/uploadIMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chooseImage"
+            android:layout_centerHorizontal="true"
+            android:text="upload"></Button>
+
+
+
+        <Button
+            android:layout_marginTop="60dp"
+            android:id="@+id/newPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/uploadIMG"
+            android:layout_centerHorizontal="true"
+            android:text="criar"></Button>
+
+    </LinearLayout>
+</RelativeLayout>

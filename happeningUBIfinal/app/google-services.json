@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "659663427910",
+    "firebase_url": "https://happeningubifinal.firebaseio.com",
+    "project_id": "happeningubifinal",
+    "storage_bucket": "happeningubifinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659663427910:android:a527f3994a9ef38065ad47",
+        "android_client_info": {
+          "package_name": "pt.ubi.di.pdm.happeningubifinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659663427910-6s2ojj10tes4aqfpf3dt7kduoojd3qmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLY2SCkNYeMxMztHw8Nj5jgQaQ7EZmUB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659663427910-6s2ojj10tes4aqfpf3dt7kduoojd3qmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

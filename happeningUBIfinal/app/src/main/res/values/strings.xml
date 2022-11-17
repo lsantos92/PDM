@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">happeningUBIfinal</string>
+    <string name="nome">Nome</string>
+    <string name="registo_do_utilizador">Registo do utilizador</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="contacto">Contacto</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_happening_ubi">Welcome to happening@UBI</string>
+    <string name="ainda_n_o_tem_conta_clique_em_baixo_para_se_registar">Ainda não tem conta clique em baixo para se registar!</string>
+    <string name="registo">Registo</string>
+    <string name="visit_as_guest">Visit as Guest</string>
+    <string name="happening_ubi">Happening@UBI</string>
+    <string name="ainda_n_o_tem_conta_clique_em_baixo_para_registar">Ainda não tem conta? Clique em baixo para registar!</string>
+    <string name="entrar">Entrar</string>
+    <string name="criar_conta">Criar conta</string>
+</resources>

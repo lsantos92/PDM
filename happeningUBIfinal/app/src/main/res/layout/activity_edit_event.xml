@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:background="#ad8547"
+    >
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar evento"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/selectEvent"
+        android:layout_marginVertical="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:text="selecione um evento para editar"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        ></TextView>
+    <Spinner
+        android:id="@+id/spinnerEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectEvent"
+        ></Spinner>
+
+    <TextView
+        android:id="@+id/newImage"
+        android:layout_marginVertical="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserir nova imagem"
+        android:textSize="20dp"
+        android:layout_below="@id/spinnerEvent"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/newNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserir novo nome"
+        android:textSize="20dp"
+        android:layout_below="@id/newImage"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/newDescricao"
+        android:layout_marginVertical="40dp"
+        android:layout_below="@id/newNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserir nova descrição"
+        android:textSize="20dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/novoNome"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/newNome"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="-14dp"
+        android:layout_toRightOf="@+id/newNome"></EditText>
+
+    <EditText
+        android:id="@+id/novaDescricao"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/newDescricao"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="-14dp"
+        android:layout_toRightOf="@+id/newDescricao"></EditText>
+
+    <Button
+        android:id="@+id/uploadImagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/newImage"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="-10dp"
+        android:layout_toRightOf="@id/newImage"
+        android:text="upload" />
+
+    <Button
+    android:id="@+id/selectImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/newImage"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="-10dp"
+    android:layout_toRightOf="@id/newImage"
+    android:text="select" />
+
+    <Button
+        android:id="@+id/editarEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newDescricao"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="editar" />
+
+
+</RelativeLayout>
+
+
+
+
+
+

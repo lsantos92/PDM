@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Área de Utilizador"
+    android:textSize="30dp"
+    android:textColor="#ffffff"
+    android:layout_centerHorizontal="true"
+    android:layout_marginVertical="20dp"
+    ></TextView>
+
+    <Button
+        android:id="@+id/editPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mudarNome"
+        android:layout_marginVertical="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="Editar posts" />
+
+    <Button
+        android:id="@+id/mudarNome"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="100dp"
+        android:text="mudar nome"></Button>
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mudarNome"
+        android:layout_marginVertical="146dp"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@id/deleteAcc"
+        android:hint="confirme a sua password" />
+    <EditText
+        android:id="@+id/confirmEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mudarNome"
+        android:layout_marginVertical="96dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="196dp"
+        android:layout_toRightOf="@id/deleteAcc"
+        android:hint="confirme o seu Email" />
+
+    <EditText
+        android:id="@+id/alteraNome"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="100dp"
+        android:layout_marginLeft="29dp"
+        android:layout_toRightOf="@+id/mudarNome"
+        android:hint="Altere o seu nome"></EditText>
+
+    <Button
+        android:id="@+id/mudarPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mudar password"
+        android:layout_marginVertical="180dp"
+        ></Button>
+
+
+    <EditText
+        android:id="@+id/oldPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="180dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_toEndOf="@+id/mudarPassword"
+        android:layout_toRightOf="@+id/mudarPassword"
+        android:hint="Inserir password antiga"></EditText>
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="220dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_toEndOf="@+id/mudarPassword"
+        android:layout_toRightOf="@+id/mudarPassword"
+        android:hint="Inserir nova password"></EditText>
+
+    <Button
+        android:id="@+id/mudarContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="280dp"
+        android:text="mudar Contacto"></Button>
+
+
+    <EditText
+        android:id="@+id/newContact"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="280dp"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/mudarPassword"
+        android:hint="Inserir novo Contacto"></EditText>
+
+    <Button
+        android:id="@+id/deleteAcc"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mudarNome"
+        android:layout_marginVertical="90dp"
+        android:text="Apagar Conta" />
+
+
+</RelativeLayout>

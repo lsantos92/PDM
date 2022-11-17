@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >>
+
+    <item
+        android:id="@+id/vEvent"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        android:title="Event"
+        app:showAsAction="ifRoom"
+        ></item>
+
+    <item
+        android:id="@+id/vPhoto"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_photo_library_24"
+        android:title="Photo"
+        app:showAsAction="ifRoom"
+        ></item>
+
+    <item
+        android:id="@+id/vVideo"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_videocam_24"
+        android:title="Video"
+        app:showAsAction="ifRoom"
+        ></item>
+</menu>
